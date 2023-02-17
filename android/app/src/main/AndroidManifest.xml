@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mizzi47.smart_tasbih">
+    <uses-permission android:name="android.permission.VIBRATE"/>
    <application
-        android:label="smart_tasbih"
+        android:label="Qul Tasbih"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
